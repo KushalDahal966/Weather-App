@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>WhereWweather</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="search-bar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input
+          type="text"
+          name=""
+          id="search-box"
+          placeholder="Search Your City"
+        />
+      </div>
+
+      <div class="main-body">
+        <h1 class="current-city"></h1>
+        <p class="current-date"></p>
+        <div class="current-weather"></div>
+        <div class="weather-icon"></div>
+        <p class="current-tempreture"></p>
+        <div class="temp-container">
+          <p class="min-temp">Min.</p>
+          <p class="max-temp">Max.</p>
+        </div>
+
+        <div class="additional-info">
+          <div class="real-feal additional-item">
+            <i class="fa-solid fa-temperature-high"></i>
+            <div class="additional-content">
+              <p>Feels Like</p>
+              <p class="real-feal-temp"></p>
+            </div>
+          </div>
+          <div class="humidity additional-item">
+            <i class="fa-solid fa-droplet"></i>
+            <div class="additional-content">
+              <p>Humidity</p>
+              <p class="humidity-percentage"></p>
+            </div>
+          </div>
+          <div class="wind additional-item">
+            <i class="fa-solid fa-wind"></i>
+            <div class="additional-content">
+              <p>Wind</p>
+              <p class="wind-speed"></p>
+            </div>
+          </div>
+          <div class="pressure additional-item">
+            <i class="fa-solid fa-gauge"></i>
+            <div class="additional-content">
+              <p>Pressure</p>
+              <p class="current-pressure"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="src/script.js"></script>
+  </body>
+</html>
