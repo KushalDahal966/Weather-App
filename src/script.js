@@ -153,7 +153,7 @@ const getUserLocationWeather = () => {
             },
             (error) => {
                 // Fallback to default city
-                getWeatherData("Ilam, Nepal");
+                getWeatherData("Kathmandu");
             },
             {
                 enableHighAccuracy: true,
